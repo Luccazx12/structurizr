@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: structurizr-poc
+  title: "Structurizr POC"
+  description: "POC para utilizarmos o structurizr para gerar os artefatos de documentação usando C4 Model"
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: conta-digital-e-baas

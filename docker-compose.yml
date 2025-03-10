@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  structurizr:
+    build:
+      context: .
+      dockerfile: .setup/build/Dockerfile
+    volumes:
+      - .:/app

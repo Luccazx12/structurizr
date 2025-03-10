@@ -1,0 +1,7 @@
+site_name: "structurizr-poc"
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
